@@ -1,19 +1,52 @@
- body {
-                background: #D6DDF6;
-                font-family: "Lucida Console", "Courier New", monospace;
-            }
-            
-             figure {width:20%;
-             background: /*#EFD6F6*/ white;;
-            }
-            
-            img {width:80%;}
-            
-            img#PSB {width:10%;}
-            
-            section{
-            background: coral;
-            width:80%;
-            margin:auto;
-            }
- 
+body {
+    background: #FFB6C1;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: black;
+    font-family: sans-serif;
+}
+p {
+    font-size: larger;
+    padding-left: 2em;
+     padding-right: 2em;
+}
+
+
+
+figure {
+    width: 50%;
+    background: /*#EFD6F6*/ #ADD8E6;
+    ;
+}
+
+img {
+    width: 80%;
+}
+
+img#PSB {
+    width: 10%;
+}
+img#zoo {
+    width: 50%;
+
+}
+img#grad {
+    width: 40%;
+   
+}
+img#maine {
+    width: 50%;
+
+}
+img#guy {
+    width: 40%;
+
+}
+
+
+section {
+    background: #ADD8E6;
+    width: 80%;
+    margin: auto;
+}
+
+section.flex {display:flex;margin-left: auto;}
